@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #30336b;
+  }
+  
+  .app_footer {
+    position: absolute;
+    bottom: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 500px;
+  }
+  
+  .app_footer p {
+    font-family: "Courier New";
+    text-align: center;
+    color: #95afc0;
+  }
+  
+  h1.app_header {
+    font-size: 120px;
+    font-family: "Arial";
+    color: #ff7979;
+    margin-bottom: 0;
+  }
+  
+  h2.app_header {
+    font-size: 30px;
+    font-family: "Arial";
+    color: #eb4d4b;
+    margin-top: 0;
+  }
+  
+  .app_content {
+    text-align: center;
+  }
+  
+  .app_text{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: #dff9fb;
+  }
+  
+  .app_lang_box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .app_lang {
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    border: 3px #7ed6df solid;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .app_lang.active {
+    border-color: #badc58;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .app_lang:hover {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .app_lang.germany{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197571.png");
+  }
+  
+  .app_lang.english {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197374.png");
+  }
+  
+  .app_lang.france {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197560.png");
+  }
+
+  .app_watermark:link, .app_watermark:visited{
+    color: #130f40;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    transition-property: font-size;
+    transition-duration: 1s;
+  }
+
+  .app_watermark:hover{
+    font-size: 50px;
+  }
