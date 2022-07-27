@@ -73,15 +73,15 @@ body{
   }
   
   .app_lang.germany{
-    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197571.png");
+    background-image: url("./images/de.jpg");
   }
   
   .app_lang.english {
-    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197374.png");
+    background-image: url("./images/en.jpg");
   }
   
   .app_lang.france {
-    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197560.png");
+    background-image: url("./images/fr.jpg");
   }
 
   .app_watermark:link, .app_watermark:visited{
